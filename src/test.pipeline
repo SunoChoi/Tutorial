@@ -1,7 +1,9 @@
 node{
     def hello= 'Hello world'
+    def test= 'Test'
     stage('print'){
         print(hello)
+        print(test)
     }
 }
 
