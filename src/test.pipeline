@@ -1,6 +1,10 @@
 node{
     def hello= 'Hello world'
     stage('print'){
-        echo "${hello}"
+        print(hello)
     }
+}
+
+void print(message){
+    echo "${message}"
 }
